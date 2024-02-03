@@ -14,5 +14,5 @@ let check_duplicate_in_array = (input_array) => {
 	}
 	return [...new Set(duplicate_elements)];
 }
-let arr = [1, 1, 2, 2, 3, 3, 4, 5, 6, 1];
+let arr = [1, 1, 2, 2, 3, 3, 4, 5, 6, 1,9,9,9];
 console.log(check_duplicate_in_array(arr));
